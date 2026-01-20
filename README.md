@@ -1,10 +1,10 @@
-#  VitePress Generator Service API
+#  VitePress Generator API
 
 This service clones a repository, reads its README, scaffolds a VitePress project, and starts the VitePress development server.
 
 ### Start the Server
 ```bash
-uvicorn app:app --reload --port 8001
+uvicorn app:app --reload --port 8000
 ```
 *(Note: Use a different port if running alongside `app.py`, e.g., 8001)*
 
